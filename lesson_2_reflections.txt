@@ -39,3 +39,9 @@
 	merged into another can now be deleted because the branch it was merged into now refers back to
 	all of its commits. Deleting a branch only deletes the labels, but deleting an unmerged branch
 	renders all of its commits unreachable, effectively abandoning them. 
+	
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Automatic merging saves tons of time. If your branches implement separate features and don't
+	interface with one another, it will be very reliable. On the other hand, any automated process
+	involving code has a chance to fail. The conflict detection is very sensitive, though, which mitigates
+	the possibility of failure.
