@@ -7,3 +7,9 @@
 	Some commits performed locally may not be ready for publishing to the public. For example, after merging
 	a new feature into the master branch, you'd need to commit right away, but you probably want to 
 	take some time to check for bugs before publishing your project with that new feature included. 
+	
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	Branches occur within the same repository. They are different versions of the project that might be
+	merged someday. Clones are the same version of the project. If you have the right permissions,
+	you can push your clone back to the original author's repository. (I think!) A fork creates a brand
+	new project based on the original, and links back to the original, but changes only apply to the fork.
