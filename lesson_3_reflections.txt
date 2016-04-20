@@ -13,3 +13,7 @@
 	merged someday. Clones are the same version of the project. If you have the right permissions,
 	you can push your clone back to the original author's repository. (I think!) A fork creates a brand
 	new project based on the original, and links back to the original, but changes only apply to the fork.
+	
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+	If you lose internet connection for any reason you can still incorporate changes made remotely
+	to your local files if you've kept up-to-date.
