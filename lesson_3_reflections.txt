@@ -22,3 +22,10 @@
 	Without using github, I would probably try to email a zip of my project. But gmail doesn't let you do that!!
 	So I would email them a rar file instead. Then I'd patiently wait for them to finish whatever changes 
 	they were working on, without daring to change anything myself. And we'd go back and forth like that.
+	
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	When you're collaborating on a project, saving changes in separate branches makes it very easy for
+	everyone working on the project to see what everyone is up to. Pull requests help everyone agree on
+	changes before they are implemented in the master branch. This would be especially useful when the 
+	master branch needs to be ready for public use at all times. Obviously, keeping things to one branch
+	has the benefit of simplicity.
