@@ -7,3 +7,9 @@
 	interacting with and the repository is what git interacts with. Rather than chucking everything into the repository
 	willy-nilly, git gives the option of setting it all up in the staging area first so you can be specific
 	about what you want to commit, how, and when. 
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+	If you've made changes to separate files that weren't logically connected,
+	you can stage only one of those files, commit, then stage and commit the other.
+	If all changed files are part of the same logical change, you can 
+	stage them all and then commit.
