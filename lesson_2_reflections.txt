@@ -33,3 +33,9 @@
 	This verbal description does much more to help me understand branch structure and its importance
 	in version control through git than the diagram, but I imagine visual learners would enjoy
 	parsing the mess that is the paragraph above!
+	
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	The commit made from the merge has 2 parents, and then two sets of ancestors. The branch that was
+	merged into another can now be deleted because the branch it was merged into now refers back to
+	all of its commits. Deleting a branch only deletes the labels, but deleting an unmerged branch
+	renders all of its commits unreachable, effectively abandoning them. 
