@@ -1,0 +1,9 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+	Initializing a repository puts a hidden .git folder into the directory. This folder stores important metadata
+	which git uses for all of its special functions. An initial commit is not created, however.
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+	The staging area is an intermediary between the two. The working directory is what you're directly
+	interacting with and the repository is what git interacts with. Rather than chucking everything into the repository
+	willy-nilly, git gives the option of setting it all up in the staging area first so you can be specific
+	about what you want to commit, how, and when. 
