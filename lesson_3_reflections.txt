@@ -1,4 +1,9 @@
 1. When would you want to use a remote repository rather than keeping all your work local?
-  - When you're working on a solo project and want to keep a backup in the cloud
-  - When you're working on a solo project from multiple devices
-  - When you're working on a colaborative project
+	- When you're working on a solo project and want to keep a backup in the cloud
+	- When you're working on a solo project from multiple devices
+	- When you're working on a colaborative project
+
+2. Why might you want to always pull manually rather than having Git automatically stay up-to-date with your remote repository?
+	Some commits performed locally may not be ready for publishing to the public. For example, after merging
+	a new feature into the master branch, you'd need to commit right away, but you probably want to 
+	take some time to check for bugs before publishing your project with that new feature included. 
