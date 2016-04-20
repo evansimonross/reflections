@@ -18,3 +18,18 @@
 	experimental changes while maintaining a useable master project. Branches allow you you easily
 	switch between different versions of the project using normal human branch names rather than 
 	convoluted commit IDs.
+	
+5. How do the diagrams help you visualize the branch structure?
+	For me, actually, they don't really help so much. I'm not much of a visual learner. 
+	I can understand how those diagrams would help some people understand the concept of reachability,
+	but for me just saying in words "a commit that is not an ancestor of any branch's tip" is
+	enough to convey it. 
+	
+	Every commit has a parent which is the commit it was modified from.	A commit's ancestry traces 
+	back to the repository initialization. The log function only includes the ancestry of the current
+	branch. Thus, a commit that is not an ancestor of any branch's tip will	never appear in the log, 
+	and will be functionally non-existant. That's why creating new branches	is so important. 
+	
+	This verbal description does much more to help me understand branch structure and its importance
+	in version control through git than the diagram, but I imagine visual learners would enjoy
+	parsing the mess that is the paragraph above!
