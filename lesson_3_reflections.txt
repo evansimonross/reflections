@@ -17,3 +17,8 @@
 4. What is the benefit of having a copy of the last known state of the remote stored locally?
 	If you lose internet connection for any reason you can still incorporate changes made remotely
 	to your local files if you've kept up-to-date.
+	
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	Without using github, I would probably try to email a zip of my project. But gmail doesn't let you do that!!
+	So I would email them a rar file instead. Then I'd patiently wait for them to finish whatever changes 
+	they were working on, without daring to change anything myself. And we'd go back and forth like that.
